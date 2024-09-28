@@ -8,7 +8,7 @@ const submitNameButton = document.getElementById('submit-name-btn')
 const viewScoreButton = document.getElementById('view-score-btn')
 const nameInput = document.getElementById('name')
 
-let shuffledQuestions, currentQuestionIndex, score = 0, userName = ''
+let shuffledQuestions , currentQuestionIndex, score = 0, userName = ''
 
 // Event listener to capture the user's name and start the quiz
 submitNameButton.addEventListener('click', () => {
@@ -83,6 +83,7 @@ function selectAnswer(e) {
   if (correct) {
     score++
   }
+ 
 
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
@@ -92,6 +93,7 @@ function selectAnswer(e) {
     startButton.classList.remove('hide')
     viewScoreButton.classList.remove('hide') // Show the view score button
   }
+  
 }
 
 // Function to save score and username to localStorage
@@ -133,15 +135,7 @@ const questions = [
         { text: '22', correct: false }
       ]
     },
-    {
-      question: 'Who is the best YouTuber?',
-      answers: [
-        { text: 'Web Dev Simplified', correct: true },
-        { text: 'Traversy Media', correct: true },
-        { text: 'Dev Ed', correct: true },
-        { text: 'Fun Fun Function', correct: true }
-      ]
-    },
+    
     {
       question: 'Is web development fun?',
       answers: [
@@ -158,61 +152,7 @@ const questions = [
         { text: '8', correct: true }
       ]
     },
-    {
-      question: 'What is the capital of France?',
-      answers: [
-        { text: 'Berlin', correct: false },
-        { text: 'Madrid', correct: false },
-        { text: 'Paris', correct: true },
-        { text: 'Lisbon', correct: false }
-      ]
-    },
-    {
-      question: 'Which planet is known as the Red Planet?',
-      answers: [
-        { text: 'Earth', correct: false },
-        { text: 'Mars', correct: true },
-        { text: 'Jupiter', correct: false },
-        { text: 'Venus', correct: false }
-      ]
-    },
-    {
-      question: 'What is the largest mammal?',
-      answers: [
-        { text: 'Elephant', correct: false },
-        { text: 'Blue Whale', correct: true },
-        { text: 'Giraffe', correct: false },
-        { text: 'Shark', correct: false }
-      ]
-    },
-    {
-      question: 'Which element has the chemical symbol O?',
-      answers: [
-        { text: 'Oxygen', correct: true },
-        { text: 'Gold', correct: false },
-        { text: 'Silver', correct: false },
-        { text: 'Hydrogen', correct: false }
-      ]
-    },
-    {
-      question: 'How many continents are there on Earth?',
-      answers: [
-        { text: '5', correct: false },
-        { text: '6', correct: false },
-        { text: '7', correct: true },
-        { text: '8', correct: false }
-      ]
-    },
-    // Avengers-themed questions
-    {
-      question: 'Which superhero is the leader of the Avengers in many versions of the team?',
-      answers: [
-        { text: 'Iron Man', correct: false },
-        { text: 'Captain America', correct: true },
-        { text: 'Thor', correct: false },
-        { text: 'Hulk', correct: false }
-      ]
-    },
+   
     {
       question: 'In the Marvel Cinematic Universe, who is the first character to join the Avengers after the original six?',
       answers: [
