@@ -68,7 +68,7 @@
     --hue: var(--hue-wrong); /* Changes button hue to red for wrong answers */
   }
   
-  .start-btn, .next-btn {
+  .start-btn, .next-btn ,.view-score-btn {
     font-size: 1.5rem; /* Sets font size to 1.5rem for start/next buttons */
     font-weight: bold; /* Makes the font bold */
     padding: 10px 20px; /* Adds more padding to these buttons (10px top/bottom, 20px left/right) */
