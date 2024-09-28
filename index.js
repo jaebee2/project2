@@ -129,12 +129,12 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Who is the best Dev?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Mr Jibril', correct: true },
+      { text: 'Mr Salim', correct: true },
+      { text: 'Mr Readone', correct: true },
+      { text: 'Mr Paul', correct: true }
     ]
   },
   {
