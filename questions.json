@@ -1,0 +1,381 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "answers": [
+        { "text": "Hyper Text Markup Language", "correct": true },
+        { "text": "Home Tool Markup Language", "correct": false },
+        { "text": "Hyperlinks and Text Markup Language", "correct": false },
+        { "text": "Hyper Transfer Markup Language", "correct": false }
+      ]
+    },
+    {
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "answers": [
+        { "text": "<style>", "correct": true },
+        { "text": "<css>", "correct": false },
+        { "text": "<script>", "correct": false },
+        { "text": "<link>", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the correct HTML element for the largest heading?",
+      "answers": [
+        { "text": "<h1>", "correct": true },
+        { "text": "<heading>", "correct": false },
+        { "text": "<head>", "correct": false },
+        { "text": "<h6>", "correct": false }
+      ]
+    },
+    {
+      "question": "How can you make a numbered list in HTML?",
+      "answers": [
+        { "text": "<ol>", "correct": true },
+        { "text": "<ul>", "correct": false },
+        { "text": "<li>", "correct": false },
+        { "text": "<dl>", "correct": false }
+      ]
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "answers": [
+        { "text": "font-size", "correct": true },
+        { "text": "text-style", "correct": false },
+        { "text": "font-style", "correct": false },
+        { "text": "text-size", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "answers": [
+        { "text": "<br>", "correct": true },
+        { "text": "<break>", "correct": false },
+        { "text": "<lb>", "correct": false },
+        { "text": "<line>", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following is NOT a CSS property?",
+      "answers": [
+        { "text": "color", "correct": false },
+        { "text": "text-align", "correct": false },
+        { "text": "background-color", "correct": false },
+        { "text": "hover", "correct": true }
+      ]
+    },
+    {
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "answers": [
+        { "text": "<a>", "correct": true },
+        { "text": "<link>", "correct": false },
+        { "text": "<href>", "correct": false },
+        { "text": "<hyperlink>", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "answers": [
+        { "text": "function myFunction()", "correct": true },
+        { "text": "function:myFunction()", "correct": false },
+        { "text": "function = myFunction()", "correct": false },
+        { "text": "def myFunction()", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you call a function named 'myFunction' in JavaScript?",
+      "answers": [
+        { "text": "myFunction()", "correct": true },
+        { "text": "call myFunction()", "correct": false },
+        { "text": "call function myFunction()", "correct": false },
+        { "text": "execute myFunction()", "correct": false }
+      ]
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "answers": [
+        { "text": "if (i == 5)", "correct": true },
+        { "text": "if i = 5", "correct": false },
+        { "text": "if i == 5 then", "correct": false },
+        { "text": "if i = 5 then", "correct": false }
+      ]
+    },
+    {
+      "question": "Which of the following is used to add a comment in JavaScript?",
+      "answers": [
+        { "text": "// This is a comment", "correct": true },
+        { "text": "<!-- This is a comment -->", "correct": false },
+        { "text": "/* This is a comment */", "correct": false },
+        { "text": "# This is a comment", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you declare a JavaScript variable?",
+      "answers": [
+        { "text": "var x;", "correct": true },
+        { "text": "variable x;", "correct": false },
+        { "text": "x = variable;", "correct": false },
+        { "text": "declare x;", "correct": false }
+      ]
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "answers": [
+        { "text": "onclick", "correct": true },
+        { "text": "onchange", "correct": false },
+        { "text": "onmouseclick", "correct": false },
+        { "text": "onhover", "correct": false }
+      ]
+    },
+    {
+      "question": "What does CSS stand for?",
+      "answers": [
+        { "text": "Cascading Style Sheets", "correct": true },
+        { "text": "Colorful Style Sheets", "correct": false },
+        { "text": "Computer Style Sheets", "correct": false },
+        { "text": "Creative Style Sheets", "correct": false }
+      ]
+    },
+    {
+      "question": "Which is the correct CSS syntax?",
+      "answers": [
+        { "text": "body {color: black;}", "correct": true },
+        { "text": "{body;color:black;}", "correct": false },
+        { "text": "body:color=black;", "correct": false },
+        { "text": "{body:color=black;}", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you add a background color in CSS?",
+      "answers": [
+        { "text": "background-color: red;", "correct": true },
+        { "text": "color-background: red;", "correct": false },
+        { "text": "bg-color: red;", "correct": false },
+        { "text": "back-color: red;", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you add a comment in CSS?",
+      "answers": [
+        { "text": "/* This is a comment */", "correct": true },
+        { "text": "// This is a comment", "correct": false },
+        { "text": "<!-- This is a comment -->", "correct": false },
+        { "text": "# This is a comment", "correct": false }
+      ]
+    },
+    {
+      "question": "Which CSS property is used to change the text color of an element?",
+      "answers": [
+        { "text": "color", "correct": true },
+        { "text": "text-color", "correct": false },
+        { "text": "font-color", "correct": false },
+        { "text": "background-color", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you make the text bold in CSS?",
+      "answers": [
+        { "text": "font-weight: bold;", "correct": true },
+        { "text": "text-bold: bold;", "correct": false },
+        { "text": "font-style: bold;", "correct": false },
+        { "text": "font: bold;", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the correct syntax for linking an external style sheet?",
+      "answers": [
+        { "text": "<link rel='stylesheet' href='style.css'>", "correct": true },
+        { "text": "<link rel='stylesheet' src='style.css'>", "correct": false },
+        { "text": "<link src='style.css'>", "correct": false },
+        { "text": "<style rel='stylesheet' src='style.css'>", "correct": false }
+      ]
+    },
+    {
+      "question": "Which HTML attribute is used to define inline styles?",
+      "answers": [
+        { "text": "style", "correct": true },
+        { "text": "class", "correct": false },
+        { "text": "font", "correct": false },
+        { "text": "styles", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you display hyperlinks without an underline in CSS?",
+      "answers": [
+        { "text": "text-decoration: none;", "correct": true },
+        { "text": "text-style: no-underline;", "correct": false },
+        { "text": "text-decoration: no-underline;", "correct": false },
+        { "text": "none-decoration: underline;", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the default value of the position property in CSS?",
+      "answers": [
+        { "text": "static", "correct": true },
+        { "text": "relative", "correct": false },
+        { "text": "absolute", "correct": false },
+        { "text": "fixed", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you select elements with class name 'test' in CSS?",
+      "answers": [
+        { "text": ".test", "correct": true },
+        { "text": "#test", "correct": false },
+        { "text": "*test", "correct": false },
+        { "text": "test", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the output of 'console.log(typeof null)' in JavaScript?",
+      "answers": [
+        { "text": "'object'", "correct": true },
+        { "text": "'null'", "correct": false },
+        { "text": "'undefined'", "correct": false },
+        { "text": "'number'", "correct": false }
+      ]
+    },
+    {
+      "question": "Which keyword is used to skip the current iteration in a loop in JavaScript?",
+      "answers": [
+        { "text": "continue", "correct": true },
+        { "text": "break", "correct": false },
+        { "text": "skip", "correct": false },
+        { "text": "return", "correct": false }
+      ]
+    },
+    {
+      "question": "Which built-in method returns the string representation of the number's value?",
+      "answers": [
+        { "text": "toString()", "correct": true },
+        { "text": "toValue()", "correct": false },
+        { "text": "parse()", "correct": false },
+        { "text": "format()", "correct": false }
+      ]
+    },
+    {
+      "question": "Which operator is used to assign a value to a variable in JavaScript?",
+      "answers": [
+        { "text": "=", "correct": true },
+        { "text": "==", "correct": false },
+        { "text": "===", "correct": false },
+        { "text": ":=", "correct": false }
+      ]
+    },
+    {
+      "question": "What does the === operator do in JavaScript?",
+      "answers": [
+        { "text": "Checks both value and type", "correct": true },
+        { "text": "Checks only value", "correct": false },
+        { "text": "Checks only type", "correct": false },
+        { "text": "Assigns value", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you write 'Hello World' in an alert box in JavaScript?",
+      "answers": [
+        { "text": "alert('Hello World')", "correct": true },
+        { "text": "msg('Hello World')", "correct": false },
+        { "text": "alertBox('Hello World')", "correct": false },
+        { "text": "msgBox('Hello World')", "correct": false }
+      ]
+    },
+    {
+      "question": "What does DOM stand for in web development?",
+      "answers": [
+        { "text": "Document Object Model", "correct": true },
+        { "text": "Data Object Model", "correct": false },
+        { "text": "Document Oriented Model", "correct": false },
+        { "text": "Data Oriented Model", "correct": false }
+      ]
+    },
+    {
+      "question": "Which method is used to remove the last item from an array in JavaScript?",
+      "answers": [
+        { "text": "pop()", "correct": true },
+        { "text": "push()", "correct": false },
+        { "text": "shift()", "correct": false },
+        { "text": "unshift()", "correct": false }
+      ]
+    },
+    {
+      "question": "Which HTML tag is used to define an image?",
+      "answers": [
+        { "text": "<img>", "correct": true },
+        { "text": "<picture>", "correct": false },
+        { "text": "<image>", "correct": false },
+        { "text": "<photo>", "correct": false }
+      ]
+    },
+    {
+      "question": "Which HTML tag is used to create a dropdown list?",
+      "answers": [
+        { "text": "<select>", "correct": true },
+        { "text": "<dropdown>", "correct": false },
+        { "text": "<list>", "correct": false },
+        { "text": "<menu>", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you round a number to the nearest integer in JavaScript?",
+      "answers": [
+        { "text": "Math.round()", "correct": true },
+        { "text": "Math.floor()", "correct": false },
+        { "text": "Math.ceil()", "correct": false },
+        { "text": "Math.rnd()", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the use of the 'z-index' property in CSS?",
+      "answers": [
+        { "text": "Specifies the stack order of an element", "correct": true },
+        { "text": "Specifies the zoom level", "correct": false },
+        { "text": "Specifies the rotation angle", "correct": false },
+        { "text": "Specifies the transparency", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the use of the 'flex' property in CSS?",
+      "answers": [
+        { "text": "It is used to create a flexible layout", "correct": true },
+        { "text": "It is used to align text", "correct": false },
+        { "text": "It is used to set the width of elements", "correct": false },
+        { "text": "It is used to apply background colors", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the default display value of a <div> element in CSS?",
+      "answers": [
+        { "text": "block", "correct": true },
+        { "text": "inline", "correct": false },
+        { "text": "inline-block", "correct": false },
+        { "text": "none", "correct": false }
+      ]
+    },
+    {
+      "question": "Which HTML attribute specifies the path to an image file?",
+      "answers": [
+        { "text": "src", "correct": true },
+        { "text": "href", "correct": false },
+        { "text": "alt", "correct": false },
+        { "text": "path", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the correct way to specify the JavaScript version in an HTML file?",
+      "answers": [
+        { "text": "<script type='text/javascript'>", "correct": true },
+        { "text": "<script lang='javascript'>", "correct": false },
+        { "text": "<script version='javascript'>", "correct": false },
+        { "text": "<script language='javascript'>", "correct": false }
+      ]
+    },
+    {
+      "question": "What does the 'alt' attribute in the <img> tag specify?",
+      "answers": [
+        { "text": "Alternate text for an image", "correct": true },
+        { "text": "URL of the image", "correct": false },
+        { "text": "Tooltip for the image", "correct": false },
+        { "text": "Link to the image", "correct": false }
+      ]
+    }
+  ]
+  
