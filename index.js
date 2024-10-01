@@ -6,8 +6,8 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 const nameFormContainer = document.getElementById('name-form-container')
 const submitNameButton = document.getElementById('submit-name-btn')
 const viewScoreButton = document.getElementById('view-score-btn')
-const nameInput = document.getElementById('name')
 const scoreContainerElement = document.getElementById('score-container')
+const nameInput = document.getElementById('name')
 const scoreElement = document.getElementById('score')
 
 // Variables for tracking the quiz state
@@ -59,14 +59,18 @@ function setNextQuestion() {
   if (currentQuestionIndex < shuffledQuestions.length) {
     showQuestion(shuffledQuestions[currentQuestionIndex])
   } else {
-    endGame()
+    endGame()  // Call endGame when all questions are answered
   }
 }
 
-// Display a question
+// Display a question with shuffled answers
 function showQuestion(question) {
   questionElement.innerText = question.question
-  question.answers.forEach(answer => {
+
+  // Shuffle the answers array before displaying them
+  const shuffledAnswers = question.answers.sort(() => Math.random() - 0.5)
+
+  shuffledAnswers.forEach(answer => {
     const button = document.createElement('button')
     button.innerText = answer.text
     button.classList.add('btn')
@@ -101,7 +105,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    endGame()
+    endGame() // Call endGame when no more questions are left
   }
 }
 
@@ -123,8 +127,8 @@ function clearStatusClass(element) {
 
 // End the quiz and display the user's score
 function endGame() {
-  questionContainerElement.classList.add('hide')
-  scoreContainerElement.classList.remove('hide')
+  questionContainerElement.classList.add('hide') // Hide question container
+  scoreContainerElement.classList.remove('hide') // Show score container
   scoreElement.innerText = `${userName}, you scored ${score} out of ${maxQuestions}!`
   viewScoreButton.classList.remove('hide')
 }
