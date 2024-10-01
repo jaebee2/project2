@@ -1,0 +1,20 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "quizz ",
+  "main": "index.js",
+  "scripts": {
+    "test": "javascript, css , html",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "Jibril Bulama",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

@@ -126,9 +126,40 @@ function clearStatusClass(element) {
 }
 
 // End the quiz and display the user's score
+// End the quiz and display the user's score
 function endGame() {
   questionContainerElement.classList.add('hide') // Hide question container
   scoreContainerElement.classList.remove('hide') // Show score container
   scoreElement.innerText = `${userName}, you scored ${score} out of ${maxQuestions}!`
   viewScoreButton.classList.remove('hide')
+
+  // Send user name and score to the server
+  sendScoreToServer(userName, score)
 }
+
+// Function to send score data to the server
+function sendScoreToServer(name, score) {
+  const data = {
+    name: name,
+    score: score
+  }
+
+  // Using fetch to send POST request to the server
+  fetch('', {  // server URL End_point
+    method: 'POST', // Use POST method
+    headers: {
+      'Content-Type': 'application/json' // Specify the request body format as JSON
+    },
+    body: JSON.stringify(data) // Convert JavaScript object to JSON string
+  })
+  .then(response => response.json()) // Parse JSON response
+  .then(data => {
+    console.log('Success:', data) // Log success response from server
+    alert('Score submitted successfully!')
+  })
+  .catch((error) => {
+    console.error('Error:', error) // Log error if request fails
+    alert('Failed to submit score. Please try again.')
+  })
+}
+
